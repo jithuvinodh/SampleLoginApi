@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginApi</string>
+    <string name="button">Login</string>
+    <string name="welcome">Welcome to Skooly</string>
+    <string name="ConnectText">Connecting Schools, Teachers, Parents and Students</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">UserName</string>
+    <string name="name">Name</string>
+</resources>

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myantra.loginapi.LoginActivity">
+
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:layout_alignEnd="@+id/password"
+        android:layout_alignRight="@+id/password"
+        android:layout_marginBottom="77dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_your_email"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/loginBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginBottom="88dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/login"
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>
